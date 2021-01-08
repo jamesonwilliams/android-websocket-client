@@ -11,14 +11,22 @@
         android:layout_height="match_parent"
         android:text="@string/empty"
         android:scrollbars="vertical"
-        android:layout_above="@id/button"
+        android:layout_above="@id/command"
         android:padding="10dp"
         />
+    <EditText
+        android:id="@+id/command"
+        android:layout_above="@id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/command_input_hint"
+        android:autofillHints="@string/command_input_hint"
+        android:inputType="textCapWords" />
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/send_command_text"
+        android:text="@string/send_command_button_label"
         android:layout_alignParentBottom="true"
         android:layout_margin="20dp"
         android:padding="10dp"

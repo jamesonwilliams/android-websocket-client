@@ -1,16 +1,16 @@
 <resources>
     <!-- Be sure to change this to the value of your API Gateway! -->
-    <string name="websocket_url">wss://YOUR_APP_ID.execute-api.YOUR_REGION.amazonaws.com/YOUR_STAGE</string>
+    <string name="websocket_url">wss://APP_ID.execute-api.REGION.amazonaws.com/STAGE</string>
 
     <string name="app_name">WebSocket Reader</string>
-
-    <string name="websocket_opened">WebSocket opened!</string>
-    <string name="websocket_closed">WebSocket closed.</string>
-    <string name="websocket_failure">WebSocket failure: %1$s</string>
-    <string name="websocket_received_message">WebSocket received message: %1$s</string>
-    <string name="websocket_sent_command">WebSocket sent message: %1$s</string>
-
     <string name="empty" />
-    <string name="send_command_text">Send Command to Raspberry Pi</string>
+
+    <string name="websocket_closed">WebSocket closed: %1$s</string>
+    <string name="websocket_connected">WebSocket opened on %1$s</string>
+    <string name="websocket_received_message">WebSocket got message: %1$s</string>
+    <string name="websocket_sent_command">WebSocket sent command: %1$s</string>
+
     <string name="status_line">%1$d: %2$s\n</string>
+    <string name="send_command_button_label">Send Command</string>
+    <string name="command_input_hint">Enter a command...</string>
 </resources>
