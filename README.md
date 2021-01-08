@@ -1,3 +1,5 @@
+![Kotlin, Ktor, OkHttp, Android, WebSockets](banner.png)
+
 # Simple WebSocket App
 
 Amazon API Gateway added support for WebSockets in December, 2018. [The
@@ -5,7 +7,6 @@ original launch
 announcement](https://aws.amazon.com/blogs/compute/announcing-websocket-apis-in-amazon-api-gateway/)
 includes [a demo app that relays messages between
 clients](https://serverlessrepo.aws.amazon.com/applications/arn:aws:serverlessrepo:us-east-1:729047367331:applications~simple-websockets-chat-app).
-
 
 This Android app provides the ability to read and write messages to that
 WebSocket endpoint, hosted in Amazon API Gateway.
@@ -29,3 +30,10 @@ Check what happens on the app. You should see the message there.
 
 You can click the "send message" button in the app to send a message the
 listener, too.
+
+## OkHttp & Ktor
+
+Two version of the app are provided:
+ 1. [One using Ktor](https://github.com/jamesonwilliams/android-websocket-client/blob/ktor/app/src/main/java/org/nosemaj/wsreader/MainActivity.kt), and
+ 2. [One using OkHttp](https://github.com/jamesonwilliams/android-websocket-client/blob/okhttp/app/src/main/java/org/nosemaj/wsreader/MainActivity.kt)
+
