@@ -13,4 +13,5 @@
     <string name="status_line">%1$d: %2$s\n</string>
     <string name="send_command_button_label">Send Command</string>
     <string name="command_input_hint">Enter a command...</string>
+    <string name="websocket_failure">WebSocket failure: %s$1</string>
 </resources>

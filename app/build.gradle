@@ -44,4 +44,5 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
     implementation 'io.ktor:ktor-client-websockets:1.5.0'
     implementation 'io.ktor:ktor-client-okhttp:1.5.0'
+    implementation 'org.conscrypt:conscrypt-android:2.5.1'
 }
